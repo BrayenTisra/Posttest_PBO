@@ -1,0 +1,39 @@
+package seni;
+
+public class karya {
+    private String JudulKarya, Pencipta;
+    private int TahunBuat, HargaKarya;
+
+    public karya(String JudulKarya, String pencipta, int TahunBuat, int HargaKarya) {
+        this.JudulKarya = JudulKarya;
+        this.Pencipta = pencipta;
+        this.TahunBuat = TahunBuat;
+        this.HargaKarya = HargaKarya;
+    }
+
+    public String getJudulKarya() {
+        return JudulKarya;
+    }
+    public String getPencipta() {
+        return Pencipta;
+    }
+    public int getTahunBuat() {
+        return TahunBuat;
+    }
+    public int getHargaKarya() {
+        return HargaKarya;
+    }
+
+    public void setJudulKarya(String judulKarya) {
+        this.JudulKarya = judulKarya;
+    }
+    public void setPencipta(String Pecipta) {
+        this.Pencipta = Pencipta;
+    }
+    public void setTahunBuat(int tahunBuat) {
+        this.TahunBuat = tahunBuat;
+    }
+    public void setHargaKarya(int hargaKarya) {
+        this.HargaKarya = hargaKarya;
+    }
+}
